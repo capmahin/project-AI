@@ -17,3 +17,11 @@ function loader(element){
     }
   },300)
 }
+
+function typeText(element, text){
+  let index= 0;
+
+  let interval = setInterval(() =>{
+    
+  },20)
+}
