@@ -19,4 +19,12 @@ app.get('/', async (req,res)=>{
     res.status(200).send({
         message:"Jarvis at ur Service Sir"
     })
+});
+
+app.post('/',async(req,res)=>{
+    try {
+        const prompt = req.body.prompt;
+    } catch (error) {
+        
+    }
 })
